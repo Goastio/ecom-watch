@@ -1,9 +1,10 @@
+import Nav from './components/Nav';
 import './index.css';
 
 function App() {
   return (
-    <div className="flex h-screen bg-gray-700">
-     
+    <div>
+     <Nav />
     </div>
   );
 }
